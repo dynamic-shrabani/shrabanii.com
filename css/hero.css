@@ -1,0 +1,44 @@
+*,body{
+	margin: 0;
+	padding: 0;
+}
+.hero{
+	display: flex;
+	background: url("../assets/wallpaper.png");
+	background-size: cover;
+}
+.left,.right{
+	width:50% ;
+}
+.right{
+	display: flex;
+	justify-content: right;
+}
+.left{
+	display: flex;
+	justify-content: center;
+}
+.intro-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.hello{
+	border: 1px dashed block;
+	padding: 15px;
+	font-size: 23px;
+	color: black;
+	margin: 20px;
+}
+.name{
+	color: red;
+	font-size: 34px;
+	padding: 20px;
+	letter-spacing: 2px;
+	font-family: cursive;
+}
+.designation{
+	color: black;
+	font-size: ;
+}
